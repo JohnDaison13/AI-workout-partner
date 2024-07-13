@@ -1,5 +1,4 @@
 import cv2 
-# from markdown import Markdown
 import numpy as np
 import mediapipe as mp
 import pyttsx3
@@ -16,12 +15,7 @@ mp_pose = mp.solutions.pose
 
 def to_markdown(text):
   text = text.replace('•', '  *')
-#   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-# GOOGLE_API_KEY="AIzaSyCSc7mz3nIPxI7eLCfTOlEiUyRnXoGic7Q"
-
-# genai.configure(api_key=GOOGLE_API_KEY)
-# model = genai.GenerativeModel('gemini-pro')
 
 choice=0
 while choice!=5:
